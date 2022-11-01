@@ -1,0 +1,42 @@
+.footer-one-container{
+    height: 110px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.flex-footerone-item{
+  width: 50%;
+  height: 100%;
+}
+
+.footer-name h3{
+    width: 110px;
+    height: 32px;
+    padding: 30px 195px;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.flex-footerone-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:22px;
+}
+
+.icone-three{
+    right: 258px;
+}
+.flex-footer-icons-item svg{
+    height: 18px;
+    width: 22px;
+}

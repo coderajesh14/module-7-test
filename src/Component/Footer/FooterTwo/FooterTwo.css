@@ -1,0 +1,91 @@
+.footer {
+    width: 75%;
+    box-sizing: border-box;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+  .footer h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252b42;
+  }
+  .mediaContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .iconsContainer {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+  }
+  .footer table {
+    width: 100%;
+  }
+  .footer table tr td {
+    font-style: normal;
+    text-align: left;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    padding: 12px;
+    padding-left: 0;
+  }
+  .footer table tr th {
+    text-align: left;
+    font-size: 16px !important;
+    padding-bottom: 15px;
+    letter-spacing: 0.1px;
+    color: #252b42;
+  }
+  .footer table td:hover {
+    color: black;
+    transition: all 0.4s;
+    cursor: pointer;
+  }
+  .tableContainer {
+    width: 100%;
+  }
+  .tableContainer table input {
+    width: 50%;
+    font-family: "Montserrat";
+    font-size: 14px;
+    padding: 15px 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    background-color: #F9F9F9;;
+  }
+  .tableContainer button {
+    padding: 16px 22.5px;
+    font-family: "Montserrat";
+    background-color: #23a6f0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+  }
+  .err {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    padding-top: 0;
+    margin-top: 0;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: rgb(239, 103, 103);
+  }
+
+  .landing-page{
+      padding-top: 50px;
+  }
+  

@@ -1,0 +1,14 @@
+.recommendation-container{
+    margin-top: 20px ;
+}
+
+.recommendation-header{
+    font-size: 32px;
+    font-weight: 600;
+}
+.recommendation-list {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+}

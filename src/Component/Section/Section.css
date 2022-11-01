@@ -1,0 +1,113 @@
+.mainSection {
+  width: 93%;
+  box-sizing: border-box;
+  height: 622px;
+  margin: auto;
+  margin-top: 42px;
+  background: linear-gradient(90deg, #96e9fb 0%, #abecd6 100%);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+.firstMainSection {
+  width: 50%;
+  max-width: 50%;
+  margin: auto;
+}
+.firstMainSection div {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+.firstMainSection div p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.firstMainSection h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #2a7cc7;
+}
+.firstMainSection h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.firstMainSection div button {
+  background: #23a6f0;
+  border-radius: 5px;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 15px 40px;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+}
+.secondMainSection {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  max-width: 50%;
+  z-index: 10;
+}
+.largeEllipse {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: white;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.secondMainSection img {
+  position: absolute;
+  z-index: 111 !important;
+  left: 9%;
+}
+.mediumEllipse{
+    position: absolute;
+    background-color: white;
+    height: 79px;
+    width: 79px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.smallEllipse{ 
+    position: absolute;
+    background-color: white;
+    height: 31px;
+    top: 40%;
+    left: 97%;
+    width: 31px;
+    border-radius: 50%;
+    z-index: 1111111;
+}
+.smallestEllipse{
+    position: absolute;
+    background-color: #977DF4;;
+    height: 15px;
+    width: 15px;
+    top: 18%;
+    left: 104%;
+    border-radius: 50%;
+    z-index: 1111111;
+}

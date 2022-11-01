@@ -1,0 +1,173 @@
+.navigation{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation-logo-name p {
+    height: 32px;
+    width: 116px;
+    padding-top:13px;
+    padding-left: 38px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.flex-container ul {
+    list-style-type: none;
+  }
+  .flex-container ul li {
+    margin-left: 21px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+  }
+  .flex-container ul li a:hover {
+    color: black;
+    transition: all 0.5s;
+  }
+
+.cart-flex-container , .fav-flex-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap:5px;
+}
+.navigation-links{
+    width: 400px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-right: 50px;
+}
+
+.cart-value span , .fav-value span{
+    width: 10px;
+    height: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #23A6F0;
+}
+
+.flex-items a{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    text-align: center;
+    color: #737373;
+}
+.navigation-search{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 21px;
+    padding-top:10px;
+}
+.navigation-search button svg {
+    height: 20px;
+}
+.login a svg{
+    width: 119px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #23A6F0;
+}
+.navigation-search button {
+    height: 30px;
+    background: #febd68;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.navigation-cart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 250px;
+}
+
+.flex-pro{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-top: 15px;
+}
+
+.flex-icons-container{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-right: 35px;
+    padding-top: 15px;
+}
+.flex-icon-items{
+    height: 16px;
+    width: 16px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+}
+.navigation-cart svg {
+    height: 15px;
+    width: 15px;
+    left: 0px;
+    top: 1px;
+    border-radius: 0px;
+}
+.login-btn {
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+}
+.signup-btn{
+    border: none;
+    background-color: #febd68;
+    color: #000;
+    border-radius: 5px;
+    padding:6px 10px;
+    cursor: pointer;
+}
+
+    .flex-items a.active{
+        color: black;
+    }
+
+    .flex-items a{
+    color: #737373;
+    }
